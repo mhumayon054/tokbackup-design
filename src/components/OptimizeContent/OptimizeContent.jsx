@@ -1,6 +1,11 @@
 import React from 'react';
 import './OptimizeContent.css';
 import { IoCheckbox } from "react-icons/io5";
+import analytics from "../../assets/analytics.png"
+import second from "../../assets/second.png"
+import fourth from "../../assets/fourth.png"
+import fifth from "../../assets/fifth.png"
+import third from "../../assets/third.png"
 
 const OptimizeContent = () => {
   return (
@@ -39,7 +44,7 @@ const OptimizeContent = () => {
       {/* Right side */}
       <div className="optimize-right">
         <img
-          src="src\assets\analytics.png"
+          src={analytics}
           alt="Default Analytics"
           className="default-image"
         />
@@ -49,7 +54,7 @@ const OptimizeContent = () => {
     <section className="boost-content-container">
       <div className="optimize-right">
         <img
-          src="src\assets\second.png"
+          src={second}
           alt="Default Analytics"
           className="default-image"
         />
@@ -114,7 +119,7 @@ const OptimizeContent = () => {
       </div>
       <div className="optimize-right">
         <img
-          src="src\assets\third.png"
+          src={third}
           alt="Default Analytics"
           className="default-image"
         />
@@ -124,7 +129,7 @@ const OptimizeContent = () => {
     <section className="boost-content-container">
       <div className="optimize-right">
         <img
-          src="src\assets\fourth.png"
+          src={fourth}
           alt="Default Analytics"
           className="default-image"
         />
@@ -189,7 +194,7 @@ const OptimizeContent = () => {
       </div>
       <div className="optimize-right">
         <img
-          src="src\assets\fifth.png"
+          src={fifth}
           alt="Default Analytics"
           className="default-image"
         />

@@ -1,7 +1,10 @@
 import React from 'react';
 import './MiniContent.css';
-import { IoCheckbox } from "react-icons/io5";
-
+import analytics from "../../assets/analytics.png"
+import second from "../../assets/second.png"
+import third from "../../assets/third.png"
+import fourth from "../../assets/fourth.png"
+import fifth from "../../assets/fifth.png"
 const MiniContent = () => {
     return (
         <div className="mini-content-container">
@@ -19,7 +22,7 @@ const MiniContent = () => {
                     </div>
                     <div className="right-content">
                         <img
-                            src="src/assets/analytics.png"
+                            src={analytics}
                             alt="Default Analytics"
                             className="content-image"
                         />
@@ -29,7 +32,7 @@ const MiniContent = () => {
                 <section className="content-section">
                     <div className="right-content">
                         <img
-                            src="src/assets/second.png"
+                            src={second}
                             alt="Default Analytics"
                             className="content-image"
                         />
@@ -58,7 +61,7 @@ const MiniContent = () => {
                     </div>
                     <div className="right-content">
                         <img
-                            src="src/assets/third.png"
+                            src={third}
                             alt="Default Analytics"
                             className="content-image"
                         />
@@ -68,7 +71,7 @@ const MiniContent = () => {
                 <section className="content-section">
                     <div className="right-content">
                         <img
-                            src="src/assets/fourth.png"
+                            src={fourth}
                             alt="Default Analytics"
                             className="content-image"
                         />
@@ -96,7 +99,7 @@ const MiniContent = () => {
                     </div>
                     <div className="right-content">
                         <img
-                            src="src/assets/fifth.png"
+                            src={fifth}
                             alt="Default Analytics"
                             className="content-image"
                         />

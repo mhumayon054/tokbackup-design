@@ -1,6 +1,7 @@
 import React from 'react';
 import './BoostContent.css';
 import { IoCheckbox } from "react-icons/io5";
+import analytics from "../../assets/analytics.png"
 
 const BoostContent = () => {
   return (
@@ -37,7 +38,7 @@ const BoostContent = () => {
       {/* Right side */}
       <div className="optimize-right">
         <img
-          src="src\assets\analytics.png"
+          src={analytics}
           alt="Default Analytics"
           className="default-image"
         />
