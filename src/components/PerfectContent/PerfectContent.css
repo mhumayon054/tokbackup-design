@@ -1,0 +1,231 @@
+.perfect-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.perf-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 10%;
+}
+.perf-text-container button{
+    display: flex;
+    border: none;
+    border-radius: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1F3340;
+    outline: 1px solid rgb(67 199 255 / 33%);
+    padding: 10px 16px;
+    opacity: 1;
+    color: white;
+}
+.perf-text-container h2{
+    margin-top: 30px;
+    background: linear-gradient(to bottom, white, lightgrey);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+.perf-text-container p{
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+    color: #A7A7A7;
+
+}
+.perf-button-cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  /* .btn-adjust{
+    width: 70%;
+
+  } */
+  .perf-button-cards button{
+    border: none;
+    border-radius: 12px;
+    display: flow-root;
+    background-color: #252B3A;
+    padding: 14px 22px;
+    outline: 1px solid #8080804f !important;
+    font-weight: lighter;
+    font-size: medium;
+  }
+  .monthly-btn{
+    border-radius: 12px;
+    background-color: rgb(47, 188, 188);
+    padding: 10px 20px;
+    position: relative;
+    left: -15px;
+  }
+  .price-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9% 15%;
+  }
+  .pricing-card {
+    width: 320px;
+    background-color: #1e293b;
+    outline: 1px solid rgba(47, 188, 188, 0.359);
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.recom-text{
+    display: flex;
+    font-size: 12px;
+    padding: 2px 12px;
+    border-radius: 20px;
+    background-color: #23414D;
+    color: #00F2EA;
+    gap: 5px;
+    align-items: center;
+}
+
+/* Plan Type Section */
+.plan-type {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.plan-icon {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #0f172a;
+    border-radius: 50%;
+}
+
+.plan-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.plan-desc {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* Plan Price Section */
+.plan-price {
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.per-month {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+/* Get Started Button */
+.get-started {
+    width: 100%;
+    padding: 12px;
+    background-color: #475569;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 22px;
+}
+
+.get-started:hover {
+    background-color: #3b4252;
+}
+
+/* Divider */
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #334155;
+    margin: 20px 0;
+}
+
+/* Features Section */
+.features {
+    margin-bottom: 20px;
+}
+
+.feature-header {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.features .gpt {
+    margin-top: 25px;
+    padding-left: 20px;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.features li {
+    list-style: none;
+    color: #cbd5e1;
+}
+
+.supported-net-parent{
+    display: flex;
+    justify-content: center;
+}
+
+/* Supported Networks Section */
+.supported-networks {
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 22px;
+    background-color: #162634;
+}
+
+.supported-networks p {
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.media-icons-parent{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+
+.social-media-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}

@@ -1,0 +1,89 @@
+.searchbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 0, 128, 1) 0%, rgba(0, 255, 255, 1) 100%);
+    padding: 2px;
+    border-radius: 10px;  
+    width: 60%;
+    position: relative; /* Button ko position karne ke liye */
+}
+
+.input-wrapper input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1f1f2e;
+    color: #fff;
+}
+
+.input-wrapper input::placeholder {
+    color: #ccc;
+}
+
+.input-wrapper button {
+    padding: 10px 8px;
+    background-color: rgb(51, 204, 204);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(0 0 0);
+    font-size: 16px;
+    margin-left: 8px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: smaller;
+
+}
+
+.input-wrapper button svg {
+    margin-left: 8px;
+}
+.search-profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #191F2F;
+  padding: 7px 14px;
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+  
+.search-profile-image {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+  
+  .profile-name {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tiktok-icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+  }
+  .search-profile-wrapper {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 10px;
+}

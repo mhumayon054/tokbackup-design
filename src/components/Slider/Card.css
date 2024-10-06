@@ -1,0 +1,576 @@
+.con{
+  display: flex;
+  flex-direction: column;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  padding: 50px;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+
+.pure-card{
+  display: flex;
+  height: 566px;
+  width: 400px;
+  flex-direction: column;
+  outline: 1px solid #242f4f;
+  border-radius: 32px;
+}
+
+
+.rounded-card{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBL0GGqQvZX9m2vEaSWya0LmiipFxGlXOh27Ivk7VEV-QEf8t8CNmIT3JOD_6lT5doEMk&usqp=CAU);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 400px;
+  position: relative;
+  padding: 17px !important;
+  border-radius: 32px 32px 0px 0px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+/* Transparent color overlay */
+.rounded-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121828c2;
+  pointer-events: none; /* Allow clicks to pass through */
+}
+
+.card-grid-lines { 
+  position: absolute;
+  top: 35%;
+  left: 23%;
+  width: 50%;
+  height: 36%;
+  background-image: linear-gradient(to right, #76767626 1px, #2e97a100 0px), linear-gradient(to bottom, #8e8e8e39 1px, #ffffff00 0px);
+  background-size: 20px 20px;
+  box-shadow: inset 0px 1px 1px 0px rgb(1 2 2 / 47%), inset 0 0 100px 50px rgb(44 80 85 / 16%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.S-sign{
+  position: relative;
+    left: -10px;
+}
+
+.content1-comp1 {
+  display: flex;
+  height: 65%;
+  justify-content: space-between;
+}
+.content1-comp3 {
+  display: flex;
+  height: 35%;
+  justify-content: space-between;
+}
+.card1-col{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* .card1-col {
+  padding-top: 100px;
+} */
+
+.subcard {
+  outline: 1px solid #a3a3a329;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1 {
+  padding: 18px 20px;
+  outline: 1px solid #a3a3a329;
+    border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.average-bar-card{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    background-color: #121828;
+    padding: 6px 14px;
+    font-size: smaller;
+    border-radius: 8px;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+  }
+  .average-bar-card p{
+    font-size: 12px;
+  }
+
+
+.subcard-header {
+  background-color: #ff4dbc;
+  border-radius: 12px;
+  text-align: center;
+  padding: 12px 15px;
+  font-weight: bold;
+  color: white;
+}
+.subcard-header p{
+  padding-top: 5px;
+  font-size: x-small;
+}
+
+.info {
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.content2 {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+}
+.content2-comp3 {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65%;
+}
+
+.content2-card2{
+    /* margin-top: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 35%;
+}
+
+.datacard {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .rounded-card, .profile-container {
+  width: 100%; 
+  max-width: 500px;
+  margin: 0 auto; 
+} */
+.data {
+  text-align: start;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.box1 {
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.info p{
+  font-size: 14px;
+}
+
+.profile-p{
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #191F2F;
+  padding: 32px 14px;
+  border-radius: 0 0 32px 32px; 
+  width: 100%; /* Make profile section match the width of the card */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.profile-details h1{
+font-size: 25px;
+background: linear-gradient(to bottom, white, lightgrey);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.profile-details p {
+  font-size: medium;
+  color: gray;
+}
+
+.contenttable{
+  height: 100%;
+   z-index: 2;
+    position: relative
+}
+.contentofcards{
+  display: flex;
+  height: 65%;
+  justify-content: space-between;
+  /* padding-top: 15px;  */
+}
+.card2-col{
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 97%;
+
+}
+.card2-col2{
+  display: flex;
+  align-items: center;
+}
+
+.tiktok-icon img {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  background-color: #00f2f2;
+  border-radius: 50%;
+}
+/* Card Styling */
+.stats-card {
+  outline: 1px solid #a3a3a329;
+  padding: 12px 14px;
+  border-radius: 10px;
+  width: 250px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.stat-title {
+  color: #a083ff;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.stat-value-card-comp1 {
+  font-size: 14px;
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+.engagement-card {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 1px 0px 0px 12px;
+  outline: 1px solid #a3a3a329;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+/* Title */
+.card-title {
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 5px;
+  color: darkgrey;
+}
+
+/* Individual Item Style */
+.engagement-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.day-name {
+  width: 70px;
+  font-size: 12px;
+  color: #9ca3af;
+  text-align: left; 
+}
+
+.progress-bar {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  width: 70px;
+  height: 12px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.progress-fill {
+  background-color: #ff7043;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  width: auto; /* Yeh ab style mein define hoti hai jahan percent define hai */
+}
+
+.engagement-value {
+  font-size: 12px;
+}
+
+/* Average Section */
+.average-engagement {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 12px;
+  height: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 10px;
+}
+
+.average-value {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 14px;
+
+}
+
+.videos-card {
+  background-color: rgb(125 125 28 / 0%);
+  border-radius: 10px;
+  padding: 5px 20px;
+  outline: 1px solid #a3a3a329;
+  width: 80%;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+/* Title */
+/* .card-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+} */
+
+/* Video Item Styling */
+.video-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.video-item-active {
+  background-color: #191F2F;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 140%;
+  padding: 20px 30px;
+  position: relative;
+  left: -60px;
+}
+
+.video-thumbnail {
+  width: 27px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.video-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.video-date {
+  display: block;
+  font-size: 12px;
+}
+
+.video-comments {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Stats */
+.video-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-around;
+  width: 80px;
+}
+.video-progress-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 70px;
+  height: 4px;
+  border-radius: 32px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.video-progress-fill {
+  background-color: #00F2Ea;
+  height: 100%;
+  border-radius: 32px;
+  width: auto;
+}
+
+.views {
+  font-size: 12px;
+  font-weight: bold;
+}
+.nav-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-button button{
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(47, 188, 188);
+  padding: 12px 22px;
+  font-weight: lighter;
+  font-size: medium;
+}
+@media screen and (min-width: 550px) {
+  .con{
+    overflow: hidden;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 50px;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+.pure-card {
+    display: flex;
+    height: 566px;
+    flex-direction: column;
+    outline: 1px solid #242f4f;
+    border-radius: 32px;
+}
+.rounded-card {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBL0GGqQvZX9m2vEaSWya0LmiipFxGlXOh27Ivk7VEV-QEf8t8CNmIT3JOD_6lT5doEMk&usqp=CAU);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 375px;
+    position: relative;
+    padding: 17px !important;
+    border-radius: 32px 32px 0px 0px;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content1-comp1 {
+    display: flex;
+    height: 65%;
+    width: 90%;
+    justify-content: space-between;
+}
+.card1-col {
+    display: flex;
+    width: 80%;
+    align-items: flex-end;
+}
+.card2-col2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.card1 {
+    padding: 18px 3px;
+    outline: 1px solid #a3a3a329;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content2 {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    height: 35%;
+}
+.datacard {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

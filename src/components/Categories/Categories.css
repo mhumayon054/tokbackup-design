@@ -1,0 +1,120 @@
+.categories-parent{
+    display: flex;
+}
+.container {
+    width: 50%;
+}
+
+.cards-con{
+display: grid;
+width: 75%;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+
+.category-box {
+    background-color: #11323F;
+    outline: 1px solid #19475a;
+    border-radius: 32px;
+    padding: 16px 34px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Circle images of users */
+.user-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-circle {
+    width: 36px;
+    height: 36px;
+    outline: 1px solid rgba(185, 185, 185, 0.674);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: -10px;
+}
+
+.user-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Extra users counter */
+.extra-users {
+    background-color: #f13c59;
+    color: white;
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+/* Title of the category */
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 16px;
+    background: linear-gradient(to bottom, white, lightgrey);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.text-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.text-container button{
+    display: flex;
+    border: none;
+    border-radius: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1F3340;
+    outline: 1px solid rgb(67 199 255 / 33%);
+    padding: 10px 16px;
+    opacity: 1;
+    color: white;
+}
+.text-container h2{
+    margin-top: 45px;
+    color: white;
+
+}
+.text-container p{
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 25px;
+    color: white;
+    text-align: start;
+}
+.cat-button-cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .btn-adjust{
+    width: 70%;
+
+  }
+  .cat-button-cards button{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(47, 188, 188);
+    padding: 12px 22px;
+    font-weight: lighter;
+    font-size: medium;
+  }

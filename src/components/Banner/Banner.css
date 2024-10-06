@@ -1,0 +1,11 @@
+.Banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #121828; 
+}
+@media screen and (max-width: 550px) {
+    .Banner-container{
+        overflow: hidden;
+    }
+}

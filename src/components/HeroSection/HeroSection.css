@@ -1,0 +1,85 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191F2F;
+    border-radius: 20px;
+    margin: 12% auto;
+    width: 90%;
+    /* max-width: 1200px; */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  .highlight{
+    font-size: 28px; 
+  background: linear-gradient(to bottom, white, lightgrey);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  }
+  
+  .hero-content {
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+  }
+  .heros{
+    width: 70%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .hero-content .highlight {
+    color: #a5b4fc; /* Light gray color for 'social strategy' */
+  }
+  
+  .hero-content p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #b0b9c4;
+    margin: 20px 0;
+  }
+
+  .cta-button {
+    background-color: #00d1ff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  
+  .cta-button:hover {
+    background-color: #00b0e6;
+  }
+  
+  .hero-image img {
+    width: 65%;
+    position: relative;
+    bottom: -50px;
+  }
+  .hero-button-cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .hero-adjust{
+    width: 70%;
+
+  }
+  .hero-button-cards button{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(47, 188, 188);
+    padding: 12px 22px;
+    font-weight: lighter;
+    font-size: medium;
+  }
+  /* font-size: 28px; 
+  background: linear-gradient(to bottom, white, lightgrey);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 40px; */

@@ -1,0 +1,51 @@
+  .accordian-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .accordian-components {
+    width: 100%;
+    max-width: 600px; 
+    margin-bottom: 10px; 
+  }
+  .MuiTypography-root{
+    font-size: smaller !important;
+    margin-left: 25px !important;
+    color: white;
+
+  }
+
+  .MuiAccordion-root {
+    border-radius: 12px !important;
+    background-color: #191F2F !important;
+    box-shadow: none;
+    overflow: hidden; 
+  }
+  .MuiSvgIcon-root{
+    color: white;
+  }
+  .MuiAccordionSummary-root {
+    background-color: #191F2F !important;
+    border-radius: 12px !important;
+    padding: 10px !important;
+    font-weight: bold !important;
+  }
+  
+  .MuiAccordionSummary-content {
+    color: #333 !important;
+  }
+  
+  .MuiAccordionSummary-expandIconWrapper {
+    color: #1976d2; 
+  }
+  
+  .MuiAccordionDetails-root {
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    font-size: 14px;
+  }
+  

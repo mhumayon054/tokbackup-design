@@ -1,0 +1,96 @@
+.parent-container{
+    display: flex;
+    margin-top: 10%;
+}
+
+/* .cards-parent{
+    display: flex;
+    justify-content: center;
+} */
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px; /* Gap between the two cards */
+    padding: 20px;
+    align-items: center;
+    width: 50%;
+
+  }
+  .combine-div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+  }
+  
+  .custom-card {
+       background-color: #151C2D;
+    border-radius: 10px; /* Rounded corners */
+    padding: 35px;
+    width: 510px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    font-size: 30px; /* Adjust icon size */
+    color: #007bff; /* Icon color */
+    margin-bottom: 10px; /* Space between icon and headings */
+  }
+  
+  .headings-container {
+    padding-left: 15px;
+    /* text-align: center;  */
+  }
+  
+  .custom-card h1 {
+    margin: 5px 0; /* Adjust margin */
+    font-size: 20px; /* Smaller font size for headings */
+    color: #333;
+  }
+  
+  .custom-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .learn-more-link {
+    text-decoration: none; /* Remove underline from link */
+    margin-top: 10px;
+  }
+  
+  .learn-more-link:hover {
+    background-color: #0056b3;
+  }
+  .dashboard-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .nav-button-cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .btn-adjust{
+    width: 70%;
+
+  }
+  .nav-button-cards button{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(47, 188, 188);
+    padding: 12px 22px;
+    font-weight: lighter;
+    font-size: medium;
+  }
